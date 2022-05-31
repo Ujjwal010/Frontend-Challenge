@@ -1,0 +1,207 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width:1440px;
+    margin:0px 204px 0px 204px;
+    
+}
+.project{
+    height:1382px;
+    width:1440px;
+    background-color:#E5E5E5;
+    
+}
+
+.project-head{
+    display: inline-flex;
+    align-items: center;
+    margin:80px 0px 0px 122px;
+}
+h1{
+margin:0px;
+font-family: Overpass;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+color: #000000;
+}
+hr{
+    margin-right:16px;
+}
+
+.project-body{
+    margin:20px 122px 0px 122px;
+    height:1158px;
+   width:1196px;
+    display: grid;
+    grid-gap:48px;
+    grid-template-columns:574px 574px;
+    grid-template-rows: 122px 125px 125px 125px 125px 125px 125px 125px 122px ;
+    
+   
+}
+
+.project-text{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left:76px;
+    font-family: Overpass;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+display: flex;
+align-items: center;
+
+color: #808080;
+
+
+}
+.project-cnt01{ 
+    background-image: url(/image/Rectangle\ 4.1\(1\).png);
+    background-size: cover;
+    width:574px;
+    height:475px;
+    grid-column: 1/2;
+    grid-row: 2/5;
+    animation-name:image-cnt01;
+    animation-duration: 2s;
+}
+
+.project-cnt02{
+    background-image: url(/image/Rectangle\ 4.3.png );
+    background-size: cover;
+    grid-column: 1/2;
+    grid-row: 5/10;
+    width:574px;
+    height:475px;
+    animation-name:image-cnt01;
+    animation-duration: 2s;
+}
+
+.project-cnt03{
+    background-image: url(/image/Rectangle\ 4\(1\).png);
+    background-size: cover;
+    grid-column:2/3;
+    grid-row:1/4;
+    width:574px;
+    height:475px;
+    animation-name:image-cnt02;
+    animation-duration: 2s;
+}
+.project-cnt04{
+    background-image: url(/image/Rectangle\ 4.2.png);
+    background-size: cover;
+    grid-column:2/3;
+    grid-row:4/9;
+    width:574px;
+    height:475px;
+    animation-name:image-cnt02;
+    animation-duration: 2s;
+}
+
+
+
+
+.project-image{
+    width:574px;
+    height:475px;
+}
+
+.project-cont01:hover{
+    background-color: rgba(248, 247, 216, 0.7);
+}
+
+
+
+@keyframes image-cnt01{
+    from{
+        margin-left:-122px;
+    }
+    to{
+        margin-left:0px;
+    }
+}
+
+
+@keyframes image-cnt02{
+    from{
+        margin-left:122px;
+    }
+    to{
+        margin-left:0px;
+    }
+}
+
+@media(max-width:600px){
+    body{
+        width:auto;
+        height:auto;
+        margin:0px 0px 0px 0px;
+        padding:0px;
+    }
+
+    .project{
+        width:auto;
+        height:auto;
+    }
+
+    .project-head{
+        margin:0px;
+    }
+    .project-body{
+        display:block;
+        margin:0px;
+        height:auto;
+        width: auto;
+
+    }
+
+    .project-text{
+        margin:20px;
+        
+    }
+    .project-cnt01{
+       margin: 20px;
+       width:350px;
+       height:300px;
+    }
+
+    .project-cnt02{
+        margin: 20px;
+        width:350px;
+        height:300px;
+     }
+
+     .project-cnt03{
+        margin: 20px;
+        width:350px;
+        height:300px;
+     }
+     .project-cnt04{
+        margin: 20px;
+        width:350px;
+        height:300px;
+     }
+
+     @keyframes image-cnt01{
+        from{
+            margin-left:-122px;
+        }
+        to{
+            margin-left:20px;
+        }
+    }
+    
+    
+    @keyframes image-cnt02{
+        from{
+            margin-left:122px;
+        }
+        to{
+            margin-left:20px;
+        }
+    }
+}

@@ -1,0 +1,326 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    width:1440px;
+    margin:0px 204px 0px 204px; 
+}
+
+
+
+
+.footer{
+    background-color:#3C3D41;
+    display:flex;
+    padding:85px 44.5px 91px 122px;
+    
+}
+
+.footer-Saltpeter{
+    height:151px;
+    width:369px;
+    margin-right:64px;
+    
+}
+
+    
+  .footer-company{
+      height:40px;
+      width:190px;
+
+      display: flex;
+      align-items: center;
+
+  }
+  .footer-company-logo{
+      height: 40px;
+      width:38px;
+  }
+  .footer-company-name{
+    
+    width: 122px;
+    height: 30px;
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #808080;
+  }
+
+  .footer-address-list{
+      position: absolute;
+      list-style-type:none;
+      padding: 0px;
+      margin-top:37px;
+
+  }
+  .footer-address{
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+  .footer-address-double{
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: grey;
+  }
+  
+  .footer-about-about{
+      width:75px;
+      margin-right: 148px;
+  }
+  .footer-about-title{
+    width: 66px;
+    height: 24px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    
+    color: #FFFFFF;
+    
+    
+  }
+  .footer-about-list{
+      position: absolute;
+      list-style-type: none;
+      padding: 0px;
+
+      
+  }
+
+  .footer-about{
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #CCCCCC;
+  }
+
+  .footer-resources-resources{
+    position:relative;
+      width:146px;
+      margin-right:119px;
+  }
+
+  .footer-resources-title{
+    width: 66px;
+    height: 24px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    
+    color: #FFFFFF;
+    
+    
+  }
+  .footer-resources-list{
+      position: absolute;
+      list-style-type: none;
+      padding: 0px;
+
+      
+  }
+
+  .footer-resources{
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #CCCCCC;
+  }
+
+  .footer-news{
+    width: 66px;
+    height: 24px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    
+    color: #FFFFFF;
+    
+  }
+
+  .footer-email{
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #CCCCCC;
+    width:339px;
+    height:48px;
+    border-radius:62px;
+    border:none;
+  }
+
+  .submit{
+    width: 36px;
+    height: 36px;
+    font-size: 30px;
+    position:relative;
+      color:#0AA6BD;
+      margin-left:-50px;
+  }
+
+
+  .fa-arrow-up-long{
+      margin:231px 40px 8px 70px;
+      color: #FFFFFF;
+  }
+  .footer-top{
+      margin:8px 44.5px 40px 61.5px;
+
+position: absolute;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #808080;
+transform: rotate(-90deg);
+
+
+  }
+
+  .footer-color{
+    width:1440px;
+    height: 90px;
+    background: #171717;
+  }
+  .footer-bottom{
+      margin-left:122px;
+      padding-top:16px;
+      display:flex;
+      align-items: center;
+      color: #FFFFFF;
+     
+  }
+
+  .footer-follow{
+      padding-top:2px;
+      margin-left:522px;
+      float:right;
+      display: flex;
+      list-style-type: none;
+      color: #FFFFFF;
+  }
+
+  .fa-twitter{
+      margin:0px 20px 0px 0px;
+
+  }
+  .fa-twitter:hover{
+    color:#0AA6BD
+  }
+
+  .fa-linkedin{
+      margin-right:20px;
+  }
+  .fa-linkedin:hover{
+    color: #0AA6BD;
+  }
+
+  .fa-facebook-square{
+    margin-right:20px;
+  }
+
+  .fa-facebook-square:hover{
+    color:#0AA6BD
+  }
+  .fa-youtube{
+    margin-right:20px;
+  }
+
+  .fa-youtube:hover{
+    color: #0AA6BD;
+  }
+
+.follow-us{
+  margin-right:40px;
+}
+  @media(max-width:600px) {
+    body{
+        width:auto;
+        margin:0px;
+    }
+    
+    .footer{
+        width:auto;
+        height:auto;
+        
+        padding:0px;
+        display:block;
+    }
+    .footer-Saltpeter{
+      margin:20px;
+      padding-top:20px;
+
+    }
+
+    .footer-about-about{
+      margin:20px;
+      height:202px;
+      width:75px;
+
+    }
+    .footer-resources-resources{
+      margin:20px;
+      height:202px;
+      width:75px;
+
+    }
+    .footer-news-email{
+      margin:20px;
+    }
+    .fa-arrow-up-long{
+      margin:20px 40px 8px 20px;
+      color: #FFFFFF;
+  }
+
+  .footer-top{
+    margin:8px 44.5px 40px 10px;
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #808080;
+    transform: rotate(-90deg);
+
+}
+.footer-color{
+  width:auto;
+  height: 150px;
+  background: #171717;
+}
+.footer-bottom{
+  display:block;
+  margin-left:90px;
+}
+.footer-follow{
+  float:none;
+  display: flex;
+  list-style-type: none;
+  color: #FFFFFF;
+  padding:0px;
+  margin:20px 0px 20px 0px;
+}
+
+.fa-circle-chevron-right{
+  margin:2px;
+}
+.submit{
+  width: 36px;
+  height: 36px;
+  font-size: 30px;
+  position:relative;
+    color:#0AA6BD;
+    margin-left:-50px;
+}
+  }

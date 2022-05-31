@@ -1,0 +1,163 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width:1440px;
+    margin:0px 204px 0px 204px;
+}
+.client{
+    height: 516px;
+    width:1440px;
+    background-color: #F8F8F8;
+    
+}
+.client-head{
+    display: inline-flex;
+    align-items: center;
+    margin:80px 0px 0px 122px;
+}
+h1{
+    margin:0px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    }
+    
+hr{
+        margin-right:16px;
+    }
+     .client-client{
+         margin:48px 42px 0px 122px;
+         display:flex;
+     }
+     .client-testimonial{
+         margin-right:80px ;
+     }
+    .client-paragraph{
+         margin:20px 0px 48px 198px;
+         font-family: Overpass;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 20px;
+         color: #808080;
+        }
+
+
+    .testimonial-text{
+            width:558px;
+            height:122px;
+            background-color:#9A9A9A ;
+            align-items: center;
+            padding:24px;
+            
+    }
+    .testimonal-paragraph{
+        
+        font-family: Overpass;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        align-items: center;
+        color: #FFFFFF;
+        margin:0px;
+        
+        
+        
+
+
+
+    }
+
+    .triangle{
+        margin:0px;
+        padding:0px;
+        width: 0;
+        height: 0;
+        border-left: 27px solid transparent;
+        border-right: 1px solid transparent;
+        border-top: 27px solid rgba(154, 154, 154, 0.7);
+    }
+    
+    .client-image{
+        height:70px;
+        width:70px;
+        border-radius: 40px;
+        margin-left:27px;
+    }
+
+    .name{
+        display:flex;
+    }
+    .client-name{
+        margin-left:10px;
+    }
+    .client-name h1{
+        font-family: Overpass;
+        color:#1791A0;
+        font-size: 20px;
+    }
+    .client-name p{
+        font-family: Overpass;
+        color:#808080;
+        font-size: 16px;
+        margin:0px;
+    }
+@media(max-width:600px){
+    body{
+        width:auto;
+        height:auto;
+        margin:0px;
+    }
+
+    .client{
+        height:auto;
+        width:auto;
+        
+        margin:20px 0px 20px 0px;
+    }
+
+    .client-head{
+        margin:0px;
+    }
+
+    .client-paragraph{
+        margin:20px;
+    }
+
+    .client-client{
+        margin:0px;
+        display:block;
+    }
+    .client-testimonial{
+        margin:20px;
+    }
+     
+
+    .testimonial-text{
+        width:360px;
+        height:94px;
+        background-color:#9A9A9A ;
+        align-items: center;
+        padding:10px;
+
+        
+}
+
+.testimonal-paragraph{
+        
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    align-items: center;
+    color: #FFFFFF;
+    margin:0px;
+    
+    
+}
+}

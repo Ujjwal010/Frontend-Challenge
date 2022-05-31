@@ -1,0 +1,173 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width:1440px;
+    margin:0px 204px 0px 204px;
+}
+.gallery{
+    height:835px;
+    width:1440px;
+    background-color: #E5E5E5;;
+    
+}
+.gallery-head{
+    display: inline-flex;
+    align-items: center;
+    margin:80px 0px 0px 122px;
+}
+h1{
+    margin:0px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    }
+    
+hr{
+        margin-right:16px;
+    }
+
+.gallery-body{
+    display:grid;
+    grid-template-columns: 566px 566px;
+    grid-template-rows: 84px 343px 84px;
+    margin:24px 127px 140px 117px;
+    grid-gap:48px;
+
+    
+}
+
+ .gallery-text{
+     grid-column: 1/2;
+     grid-row:1/2;
+     
+ }
+ 
+ .gallery-paragraph{
+font-family: Overpass;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+color: #808080;
+margin-left: 80px;
+}
+
+
+.gallery-image01{
+    height:475px;
+    width:566px;
+    background-image: url(/image/Rectangle\ 7.6.png);
+    background-size: cover;
+    grid-row:2/4;
+    grid-column: 1/2;
+
+}
+
+
+
+.gallery-image02{
+    height:475px;
+    width:566px;
+    background-image: url(/image/Rectangle\ 7.3.png);
+    background-size: cover;
+    grid-column:2/3;
+    grid-row:1/3;
+}
+
+.gallery-viewmore{
+    grid-column:2/3;
+    grid-row:3/4
+}
+
+.gallery-image-date{
+    padding:163.5px 0px 9.5px 38.13px;
+    color: white;
+
+}
+
+.gallery-image-text{
+    margin:0px 78px 24.5px 32px;
+    color:white;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.gallery-icon{
+    text-decoration: none;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    
+
+}
+.gallery-icon-icon{
+    text-decoration: none;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    margin-left:32px;
+}
+
+@media(max-width:600px){
+       body{
+           width:auto;
+           margin:0px;
+           height:auto;
+       }
+       .gallery{
+           width:auto;
+           height:auto;
+           
+       }
+       .gallery-head{
+           margin:0px;
+       }
+       .gallery-body{
+           width:auto;
+           height:auto;
+           margin:0px;
+           display: block;
+       }
+       .gallery-text{
+           width:auto;
+           height:auto;
+       }
+     .gallery-paragraph{
+        margin:20px;
+     }
+    
+     .gallery-image01{
+         width:auto;
+         height:auto;
+         margin:20px;
+     }
+
+     .gallery-image02{
+        width:auto;
+        height:auto;
+        margin:20px;
+    }
+    .gallery-viewmore{
+        margin:20px;
+    }
+
+    .gallery-image-date{
+        padding:50px 0px 9.5px 38.13px;
+    color: white;
+    }
+
+    .gallery-image-text{
+        margin:0px 0px 24.5px 32px;
+        font-size: 20px;
+    }
+    
+    .gallery-icon{
+        margin:0px 20px 0px 32px;
+    }
+}

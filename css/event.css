@@ -1,0 +1,264 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width:1440px;
+    margin:0px 204px 0px 204px; 
+}
+
+.event{
+    height:1382px;
+    width:1440px;
+    background-color: #F8F8F8;
+}
+
+.event-head{
+    display: inline-flex;
+    align-items: center;
+    margin:80px 0px 20px 122px;
+}
+
+h1{
+    margin:0px;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    font-size: 36px;
+}
+
+hr{
+    margin-right:16px;
+}
+.event-text{
+    width:498px;
+    height:84px;
+    margin:0px 744px 48px 198px;
+    text-align: justify;
+}
+
+.event-paragraph{
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    
+    color: #808080;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.event-upcoming{
+    display:flex;
+    margin:0px 82px 60px 82px;
+
+
+}
+
+.event-card{
+    width:372px;
+    height:398px;
+    margin-left:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+}
+
+.event-card-image1{
+    background-image: url(/image/Rectangle\ 10.png);
+    width:372px;
+    height:216px;
+    background-size: cover;
+}
+.event-card-image2{
+    background-image: url(/image/Rectangle\ 10.1.png);
+    width:372px;
+    height:216px;
+    background-size: cover;
+}
+.event-card-image3{
+    background-image: url(/image/Rectangle\ 10.2.png);
+    width:372px;
+    height:216px;
+    background-size: cover;
+}
+.event-card-image-date{
+    color:#1791A0;
+    background-color: white;
+    height:52px;
+    width:54px;
+    margin:0px 294px 140px 24px;
+    text-align: center;
+    font-size: 24px;
+}
+.event-card-text{
+    width:372px;
+    height:126px;
+    padding-top: 10px;
+    
+}
+.event-card-date{
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #808080;
+    padding:24px 0px 0px 24px;
+}
+.event-card-paragraph{
+    height:64px;
+    width:322px;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #000000;
+    margin:10px 25px 24px 24px; 
+    
+    
+
+
+
+}
+.event-card-line{
+    margin:0px 0px 16px 0px;
+
+}
+.event-card-street{
+    
+    text-decoration: none;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    color: #1791A0;
+    text-align: center;
+    margin:0px 16px 0px 24px;
+
+
+}
+.event-card-bottom{
+    width:372px;
+    height:46px;
+}
+.event-card-blog{
+    text-decoration: none;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    color: #1791A0;
+}
+
+
+
+
+
+
+
+
+.event-past{
+    display: flex;
+    margin:24px 82px 60px 82px
+}
+
+
+.event-past-card{
+    width:276px;
+    height:315px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left:30px;
+ }
+
+
+.event-past-card-image{
+          height:226px;
+          width:276px;
+          
+}
+
+.event-past-card-text{
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    align-items: center;
+    color: #000000;
+    margin:16px;
+    height:56px;
+    width:244px;
+    }
+
+
+    .event-icon{
+        margin:48px 122px 80px 1144px;
+        text-decoration:none
+    }
+
+
+@media(max-width:600px) {
+    body{
+        width:auto;
+        margin:0px;
+    }
+    .event{
+        width:auto;
+        height:auto;
+        
+    }
+    .event-head{
+        margin:auto;
+        font-size: 25px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .event-text{
+        margin:0px 10px 0px 10px;
+        width:fit-content;
+        height:fit-content;
+    }
+    .event-paragraph{
+        font-size:16px;
+    }
+    .event-upcoming{
+        display: block;
+        margin:0px;
+    }
+
+    
+    .event-card{
+        width:372px;
+        height:398px;
+        margin-top:50px;
+        margin-left:7px;
+
+        
+        
+    }
+
+    .event-past{
+        display:block;
+        margin:0px;
+    }
+    
+    .event-past-card{
+        margin-top:35px;
+        margin-left:55px;
+    }
+
+    .event-icon{
+        margin:40px 0px 20px 150px;
+    }
+}

@@ -1,0 +1,119 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width:1440px;
+    margin:0px 204px 0px 204px;
+}
+
+
+.navigation{
+   
+    width:1440px;
+    height:90px;
+    background: #FFFFFF;
+    display:flex;
+    align-items: center;
+
+    
+}
+
+
+.company-logo{
+    margin:30px 8px 30px 122px;
+    width:30px;
+    height:30px;
+}
+
+
+.company-name{
+    width:122px;
+    height:29px;
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-top:31px;
+    margin-bottom: 30px;
+    color: #808080;
+    text-decoration: none;
+}
+
+
+.nav-item{
+    margin-left: 378px;
+    margin-right:auto;
+    align-items: center;
+    margin-top:38.5px;
+    margin-bottom: 38.5px;
+    list-style-type: none;
+    padding:0px;
+    display: flex;
+}
+
+
+.nav{
+    font-family: Overpass;
+   font-style: normal;
+   font-weight: 600px;
+   font-size: 13px;
+   line-height: 13px;
+   color: rgba(128, 128, 128, 0.7);
+   margin-left:30px;
+   text-decoration: none;
+
+
+}
+
+
+#home{
+    color: #1791A0;
+}
+
+
+
+
+.fa-square-caret-down{
+    color: #1791A0;
+    font-size: 36px;
+    display:none;
+   
+}
+
+.dropdown{
+    display: none;
+}
+
+
+
+@media (max-width:600px){
+    body{
+        width:100%;
+        margin:0px;
+    }
+    .navigation{
+        width:100%;
+        height:60px;
+    }
+    .company-logo{
+        margin-left:20px;
+    }
+    .nav-item{
+
+        display:none;
+    }
+    .nav{
+        font-size: 16px;
+        
+    }
+    .dropdown{
+        display: block;
+        margin-left:150px;
+    }
+    .fa-square-caret-down{
+    
+        display: block;
+    }
+}

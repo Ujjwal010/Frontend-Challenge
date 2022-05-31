@@ -1,0 +1,134 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width:1440px;
+    margin:0px 204px 0px 204px;
+
+}
+
+.meet-dog{
+    height:594px;
+    width:1440px;
+    display: flex;
+    align-items: center;
+    
+    padding:80px 122px 80px 122px;
+}
+
+.meet-body{
+    height:246px;
+    width:578px;
+}
+.meet-head{
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+
+h1{
+    margin:0px;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    font-size: 36px;
+}
+
+hr{
+    margin-right:16px;
+}
+.meet-text{
+    width:578px;
+    height:150px;
+   
+}
+.meet-paragraph{
+    
+width: 498px;
+height: 150px;
+font-family: Overpass;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+color: #808080;
+padding-left:80px;
+
+}
+
+
+.meet-image{
+    height:434px;
+    width:570px;
+    margin-left:90px;
+    animation-name:dog-image;
+    animation-duration: 1s;
+}
+
+
+.meet-icon{
+    margin-top:40px;
+    text-decoration: none;
+    margin-left:80px;
+}
+.fa-circle-chevron-right{
+    
+    color:#1791A0;
+}
+
+
+@keyframes dog-image{
+    from{
+        margin-top:100px;
+    }
+    to{
+        margin-top:-0px;
+    }
+}
+
+
+@media(max-width:600px){
+    body{
+        width:auto;
+        margin:0px;
+    }
+
+    .meet-dog{
+        display: block;
+        padding:0px;
+        width:auto;
+        height: auto;
+    }
+    .meet-body{
+        height:auto;
+        width:auto;
+    }
+    .meet-text{
+        width:auto;
+        height:auto;
+    }
+    .meet-paragraph{
+        height: auto;
+        width: auto;
+        padding:0px;
+        margin:20px;
+    }
+    .meet-image{
+        height: auto;
+        width: auto;
+        margin:30px 15px 30px 15px;
+    }
+
+    @keyframes dog-image{
+        from{
+            margin-top:30px;
+        }
+        to{
+            margin-top:30px;
+        }
+    }
+}
+

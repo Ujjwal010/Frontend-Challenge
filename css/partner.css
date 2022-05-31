@@ -1,0 +1,119 @@
+html{
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width:1440px;
+    margin:0px 204px 0px 204px; 
+}
+
+.partner{
+    height:262px;
+    width:1440px;
+    background-color: #E5E5E5;
+}
+
+.partner-head{
+    display: inline-flex;
+    align-items: center;
+    margin:80px 0px 20px 122px;
+}
+
+h1{
+    margin:0px;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    font-size: 36px;
+}
+
+hr{
+    margin-right:16px;
+}
+
+.partner-body{
+    display: flex;
+    margin:40px 123px 0px 93px;
+}
+
+.partner-item{
+    width:276px;
+    height:138px;
+    align-items: center;
+    background-color: white;
+    margin-left:30px;
+    animation-name: item;
+    animation-duration: 1s;
+}
+.partner-item img{
+    width:44px;
+    height:44px;
+    margin:30px 116px 10px 116px
+
+}
+.partner-item h1{
+
+font-family: Overpass;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+color: #3A3738;
+text-align: center;
+
+}
+
+@keyframes item{
+    from{
+        margin-top:50px;
+    }
+    to{
+        margin-top:0px;
+    }
+}
+
+@media(max-width:600px){
+    body{
+        width:auto;
+        margin:0px;
+    }
+    .partner{
+        width:auto;
+        height:auto;
+        background-color: #E5E5E5;
+    }
+    .partner-head{
+        margin:auto;
+        font-size: 25px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    
+    .partner-body{
+        display:block;
+        align-items: center;
+        margin:40px;
+    }
+
+    .partner-item{
+        animation-name: item;
+        animation-duration: 1s;
+        margin-top:40px;
+        
+    }
+    @keyframes item{
+        from{
+            margin-top:80px;
+        }
+        to{
+            margin-top:40px;
+        }
+    }
+}
+
+
